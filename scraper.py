@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup as bs
 import time
 
 count = 1
-while count < 3080:
+while count < 21:
     response = requests.get("https://xkcd.com/"+str(count))
 
     src = response.content
